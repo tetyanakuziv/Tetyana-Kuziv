@@ -17,6 +17,7 @@ namespace ConsoleApp18integer30
                 {
                     Console.WriteLine("Please enter another value");
                     Console.ReadKey();
+                    return;
                 }
                 int c = ((y - 1) / 100 + 1);
                 Console.WriteLine("The century of this year is {0}", c);

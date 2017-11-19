@@ -20,11 +20,13 @@ namespace boolean7_38_
                 {
                     Console.WriteLine("Please enter another value");
                     Console.ReadKey();
+                    return;
                 }
                 if (x1 < 1 || x2 < 1 || y1 < 1 || y2 < 1)
                 {
                     Console.WriteLine("Please enter another value");
                     Console.ReadKey();
+                    return;
                 }
                 Console.WriteLine(Math.Abs(x1 - x2) == Math.Abs(y1 - y2));
             }

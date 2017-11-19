@@ -18,10 +18,12 @@ namespace ConsoleApp3begin
                 {
                     Console.WriteLine("Please enter another number");
                     Console.ReadKey();
+                    return;
                 }
                 if (a == b)
                 {
                     Console.WriteLine("a cannot = b");
+                    return;
                 }
                 int S = a * b;
                 int P = 2 * (a + b);

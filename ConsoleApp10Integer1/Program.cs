@@ -17,6 +17,7 @@ namespace ConsoleApp10Integer1
                 {
                     Console.WriteLine("Please enter another number");
                     Console.ReadKey();
+                    return;
                 }
                 int lm = l / 100;
                 Console.WriteLine("The length in meters:{0}", lm);

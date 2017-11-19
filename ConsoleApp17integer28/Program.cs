@@ -17,12 +17,14 @@ namespace ConsoleApp17integer28
                 {
                     Console.WriteLine("Please enter another value");
                     Console.ReadKey();
+                    return;
                 }
                 int n = getUserValue("N");
                 if (n < 0 || n > 7)
                 {
                     Console.WriteLine("Please enter another value");
                     Console.ReadKey();
+                    return;
                 }
                 Console.WriteLine(" The number of day of week is {0}", (k + n - 1) % 7);
             }

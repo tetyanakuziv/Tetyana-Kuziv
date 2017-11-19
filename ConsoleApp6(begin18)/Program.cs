@@ -19,11 +19,13 @@ namespace ConsoleApp6_begin18_
                 {
                     Console.WriteLine("C cannot be < A or be >B");
                     Console.ReadKey();
+                    return;
                 }
                 if (x1 >= x3)
                 {
                     Console.WriteLine("A cannot be >= B");
                     Console.ReadKey();
+                    return;
                 }
                 int AC = Math.Abs(x2 - x1);
                 int BC = Math.Abs(x3 - x2);

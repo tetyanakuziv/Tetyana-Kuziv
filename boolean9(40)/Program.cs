@@ -21,11 +21,13 @@ namespace boolean9_40_
                 {
                     Console.WriteLine("Please enter another value");
                     Console.ReadKey();
+                    return;
                 }
                 if (x1 < 1 || x2 < 1 || y1 < 1 || y2 < 1)
                 {
                     Console.WriteLine("Please enter another value");
                     Console.ReadKey();
+                    return;
                 }
                 Console.WriteLine();
             }

@@ -16,6 +16,7 @@ namespace ConsoleApp7begin38
                 if (A == 0)
                 {
                     Console.WriteLine("A cannot be 0");
+                    return;
                 }
                 int B = getUserValue("the B");
                 int x = -B / A;

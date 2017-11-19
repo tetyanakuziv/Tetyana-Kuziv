@@ -17,6 +17,7 @@ namespace ConsoleApp12ineger3
                 {
                     Console.WriteLine("Please enter another number");
                     Console.ReadKey();
+                    return;
                 }
                 int kb = b / 1024;
                 Console.WriteLine("file in kilobytes:{0}", kb);

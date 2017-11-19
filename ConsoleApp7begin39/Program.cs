@@ -28,6 +28,7 @@ namespace ConsoleApp7begin39
                 if (d < 0)
                 {
                     Console.WriteLine("The equation has no solutions");
+
                 }
                 else if (d == 0)
                 {

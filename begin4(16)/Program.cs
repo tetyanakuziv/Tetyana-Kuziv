@@ -4,23 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp11integer2
+namespace ConsoleApp4_begin16_
 {
     class Program
     {
         static void Main(string[] args)
-        {//Integer2. Дана масса M в килограммах. Используя операцию деления нацело, найти количество полных тонн в ней (1 тонна = 1000 кг). 
+        {//Begin16. Найти расстояние между двумя точками с заданными координатами x1 и x2 на числовой оси: |x2 − x1|.
             try
             {
-                int m = getUserValue("weight in kilograms");
-                if (m < 0)
+                int x1 = getUserValue("the x1");
+                int x2 = getUserValue("the x2");
+                if (x2 <= x1)
                 {
-                    Console.WriteLine("Please enter another number");
+                    Console.WriteLine("x2 cannot be <= x1");
                     Console.ReadKey();
                     return;
                 }
-                int mt = m / 1000;
-                Console.WriteLine("The weight in tons:{0}", mt);
+                int l = Math.Abs(x2 - x1);
+                Console.WriteLine("Result: {0}", l);
             }
             catch (Exception e)
             {
@@ -38,3 +39,4 @@ namespace ConsoleApp11integer2
         }
     }
 }
+
