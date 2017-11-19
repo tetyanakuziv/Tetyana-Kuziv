@@ -4,22 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp5_begin17_
+namespace ConsoleApp15integer14
 {
     class Program
     {
         static void Main(string[] args)
-        {//Begin17. Даны три точки A, B, C на числовой оси. Найти длины отрезков AC и BC и их сумму. 
+        {//Integer14. Дано трехзначное число. В нем зачеркнули первую справа цифру и приписали ее слева. Вывести полученное число. 
             try
             {
-                int x1 = getUserValue("the A");
-                int x2 = getUserValue("the B");
-                int x3 = getUserValue("the C");
-
-                int AC = Math.Abs(x3 - x1);
-                int BC = Math.Abs(x3 - x2);
-                int sum = AC + BC;
-                Console.WriteLine("AC, BC, sum: {0}, {1}, {2}", AC, BC, sum);
+                int x = getUserValue("three-digit number");
+                int r = (x % 10) * 100 + (x / 10);
+                Console.WriteLine("Result:{0}", r);
             }
             catch (Exception e)
             {
@@ -36,4 +31,5 @@ namespace ConsoleApp5_begin17_
             return Int32.Parse(s);
         }
     }
+
 }

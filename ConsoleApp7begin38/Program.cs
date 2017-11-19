@@ -9,7 +9,7 @@ namespace ConsoleApp7begin38
     class Program
     {
         static void Main(string[] args)
-        {
+        {//Begin38. Решить линейное уравнение A·x + B = 0, заданное своими коэффициентами A и B (коэффициент A не равен 0). 
             try
             {
                 int A = getUserValue("the A");

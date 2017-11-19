@@ -9,7 +9,7 @@ namespace ConsoleApp2begin
     class Program
     {
         static void Main(string[] args)
-        {
+        {//Begin2. Дана сторона квадрата a. Найти его площадь S = a2
             Console.WriteLine("Please enter the side a");
             string s = Console.ReadLine();
             try

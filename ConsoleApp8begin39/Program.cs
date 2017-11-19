@@ -9,7 +9,7 @@ namespace ConsoleApp8begin39
     class Program
     {
         static void Main(string[] args)
-        {
+        {//Begin40. Найти решение системы линейных уравнений вида A1·x + B1·y = C1, A2·x + B2·y = C2
             try
             {
                 int a1 = getUserValue("the A1");

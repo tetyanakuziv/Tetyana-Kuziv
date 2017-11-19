@@ -9,7 +9,7 @@ namespace ConsoleApp4_begin16_
     class Program
     {
         static void Main(string[] args)
-        {
+        {//Begin16. Найти расстояние между двумя точками с заданными координатами x1 и x2 на числовой оси: |x2 − x1|.
             try
             {
                 int x1 = getUserValue("the x1");

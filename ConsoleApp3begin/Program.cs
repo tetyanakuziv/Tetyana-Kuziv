@@ -9,7 +9,7 @@ namespace ConsoleApp3begin
     class Program
     {
         static void Main(string[] args)
-        {
+        {//Begin3. Даны стороны прямоугольника a и b. Найти его площадь S = a·b и периметр P = 2·(a + b). 
             try
             {
                 int a = getUserValue("the side a");

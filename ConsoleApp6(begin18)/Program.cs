@@ -9,7 +9,7 @@ namespace ConsoleApp6_begin18_
     class Program
     {
         static void Main(string[] args)
-        {
+        {//Begin18. Даны три точки A, B, C на числовой оси. Точка C расположена между точками A и B. Найти произведение длин отрезков AC и BC
             try
             {
                 int x1 = getUserValue("the A");

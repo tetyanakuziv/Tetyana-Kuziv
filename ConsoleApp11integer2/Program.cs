@@ -4,22 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp5_begin17_
+namespace ConsoleApp11integer2
 {
     class Program
     {
         static void Main(string[] args)
-        {//Begin17. Даны три точки A, B, C на числовой оси. Найти длины отрезков AC и BC и их сумму. 
+        {//Integer2. Дана масса M в килограммах. Используя операцию деления нацело, найти количество полных тонн в ней (1 тонна = 1000 кг). 
             try
             {
-                int x1 = getUserValue("the A");
-                int x2 = getUserValue("the B");
-                int x3 = getUserValue("the C");
-
-                int AC = Math.Abs(x3 - x1);
-                int BC = Math.Abs(x3 - x2);
-                int sum = AC + BC;
-                Console.WriteLine("AC, BC, sum: {0}, {1}, {2}", AC, BC, sum);
+                int m = getUserValue("weight in kilograms");
+                if (m < 0)
+                {
+                    Console.WriteLine("Please enter another number");
+                    Console.ReadKey();
+                }
+                int mt = m / 1000;
+                Console.WriteLine("The weight in tons:{0}", mt);
             }
             catch (Exception e)
             {

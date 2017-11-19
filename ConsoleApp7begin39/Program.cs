@@ -9,7 +9,7 @@ namespace ConsoleApp7begin39
     class Program
     {
         static void Main(string[] args)
-        {
+        { //Begin39.Найти корни квадратного уравнения A·x2 + B·x + C = 0
             try
             {
                 int a = getUserValue("integer a");

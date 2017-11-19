@@ -9,7 +9,7 @@ namespace ConsoleApp1begin
     class Program
     {
         static void Main(string[] args)
-        {
+        {//Begin1. Дана сторона квадрата a. Найти его периметр P = 4·a. 
             Console.WriteLine("Please enter the side a");
             string s = Console.ReadLine();
             try

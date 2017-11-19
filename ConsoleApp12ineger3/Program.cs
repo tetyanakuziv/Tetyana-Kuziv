@@ -4,22 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp10Integer1
+namespace ConsoleApp12ineger3
 {
     class Program
     {
         static void Main(string[] args)
-        {//Integer1. Дано расстояние L в сантиметрах. Используя операцию деления нацело, найти количество полных метров в нем (1 метр = 100 см). 
+        {   //Integer3.Дан размер файла в байтах.Используя операцию деления нацело, найти количество полных килобайтов, которые занимает данный файл(1 килобайт = 1024 байта). 
             try
             {
-                int l = getUserValue("length in inches");
-                if (l < 0)
+                int b = getUserValue("file in bytes");
+                if (b < 0)
                 {
                     Console.WriteLine("Please enter another number");
                     Console.ReadKey();
                 }
-                int lm = l / 100;
-                Console.WriteLine("The length in meters:{0}", lm);
+                int kb = b / 1024;
+                Console.WriteLine("file in kilobytes:{0}", kb);
             }
             catch (Exception e)
             {
