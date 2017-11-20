@@ -12,7 +12,7 @@ namespace ConsoleApp10Integer1
         {//Integer1. Дано расстояние L в сантиметрах. Используя операцию деления нацело, найти количество полных метров в нем (1 метр = 100 см). 
             try
             {
-                int l = getUserValue("length in inches");
+                int l = getUserValue("length in centimeters");
                 if (l < 0)
                 {
                     Console.WriteLine("Please enter another number");

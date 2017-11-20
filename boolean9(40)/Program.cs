@@ -29,12 +29,15 @@ namespace boolean9_40_
                     Console.ReadKey();
                     return;
                 }
-                Console.WriteLine();
+                bool f = ((x1 - x2 == 2) && (y1 - y2 == 1)) || ((x1 - x2 == 1) && (y1 - y2 == 2)) || ((x1 - x2 == -2) && (y1 - y2 == -1)) || ((x1 - x2 == -1) && (y1 - y2 == -2));
+                Console.WriteLine(f);
+                
+
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-            }
+            } 
 
             Console.ReadKey();
         }
